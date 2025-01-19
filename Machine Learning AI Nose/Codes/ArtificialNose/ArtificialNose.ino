@@ -1,5 +1,3 @@
-
-
 #include <Wire.h>
 
 #include "Multichannel_Gas_GMXXX.h"
