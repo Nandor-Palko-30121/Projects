@@ -85,7 +85,7 @@ void loop() {
   Serial.println();
 #endif
 
-  // Turn the raw buffer in a signal which we can the classify
+  // Turn the raw buffer in a signal which we can classify
   int err = numpy::signal_from_buffer(raw_buf, EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE, &signal);
   if (err != 0) {
       ei_printf("ERROR: Failed to create signal from buffer (%d)\r\n", err);
