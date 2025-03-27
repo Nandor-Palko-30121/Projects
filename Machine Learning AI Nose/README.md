@@ -33,4 +33,5 @@
 * If the neural network is confused, it would be printed the word "Unknown" on the terminal 
 ## Applications
 ### This device has the potential to be used in medical applications, especially for people with olfactory problems
-### It can also be used in human-like robots to give them the sense of smell, thus contributing to the humanization of the machines
+### It can be used in human-like robots to give them the sense of smell, thus contributing to the humanization of the machines
+### Another application could be the necesity of detecting various gaseous substances without the need of using a great number of different specific sensor for each substance.
