@@ -1,33 +1,3 @@
-#!/usr/bin/env python
-"""
-Serial Data Collection CSV
-
-Collects raw data in CSV form over a serial connection and saves them to files.
-
-Install dependencies:
-
-    python -m pip install pyserial
-
-The first line should be header information. Each sample should be on a newline.
-Here is a raw accelerometer data sample (in m/s^2):
-
-    accX,accY,accZ
-    -0.22,0.82,10.19
-    -0.05,0.77,9.63
-    -0.01,1.10,8.50
-    ...
-
-The end of the sample should contain an empty line (e.g. \r\n\r\n).
-
-Call this script as follows:
-
-    python serial-data-collect-csv.py
-    
-Author: Shawn Hymel (EdgeImpulse, Inc.)
-Date: June 17, 2022
-License: Apache-2.0 (apache.org/licenses/LICENSE-2.0)
-"""
-
 import argparse
 import os
 import time
